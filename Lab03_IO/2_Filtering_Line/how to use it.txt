@@ -1,0 +1,16 @@
+First compile the LineFilter.java with:
+
+javac LineFilter.java
+
+Then run it using :
+
+java LineFilter <pattern>
+
+if you replace <pattern> with any word and you run the program and input a string if it matches the pattern it will print it whole string containg that pattern
+ex: 
+java LineFilter "example"
+
+input:
+(user)This is example
+(program)This is example
+(user)This is not a pattern
